@@ -6,7 +6,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-@app.route('/api/info', methods=['GET'])
+@app.route('/', methods=['GET'])
 def get_info():
     
     current_datetime = datetime.now(timezone.utc).isoformat()
