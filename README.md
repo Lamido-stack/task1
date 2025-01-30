@@ -8,11 +8,12 @@ This project is a simple Flask API that returns basic information, including the
 
 Follow the steps below to run the project locally:
 
+```
 1. Clone the repository
 
 First, clone the repository to your local machine:
 
-```bash
+bash
 git clone <https://github.com/Lamido-stack/task1>
 
 2. Create a virtual environment (optional but recommended)
