@@ -9,7 +9,7 @@ CORS(app)
 @app.route('/', methods=['GET'])
 def get_info():
     
-    current_datetime = datetime.now(timezone.utc).isoformat()
+    current_datetime = datetime.now(timezone.utc).isoformat() + "z"
     
     data = {
         "email": "uklamido@gmail.com",
