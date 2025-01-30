@@ -14,7 +14,7 @@ def get_info():
     data = {
         "email": "uklamido@gmail.com",
         "current_datetime": current_datetime,
-        "github_url": "https://github.com/yourusername/your-repo" 
+        "github_url": "https://github.com/Lamido-stack/task1" 
     }
     
     return jsonify(data), 200
